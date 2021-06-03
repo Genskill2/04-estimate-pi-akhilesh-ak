@@ -37,7 +37,24 @@ int main(void) {
       abort();
     }
   }
+}float mc_pi(int n)
+{	
+	int c=0,s=n;
+	
+	for(int i=0; i<n; i++){
+	float x,y,l;
+	x=frandom();
+	y=frandom();
+	l =x*x+y*y;
+	if(l<=1){
+	c++;
+	}
+	}
+	float pi = 4.0*c/s;
+	return pi;
 }
+
+
 
 
 
