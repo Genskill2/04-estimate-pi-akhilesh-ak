@@ -42,11 +42,11 @@ int main(void) {
 	int c=0,s=n;
 	
 	for(int i=0; i<n; i++){
-	float x,y,l;
+	float x,y,d;
 	x=frandom();
 	y=frandom();
-	l =x*x+y*y;
-	if(l<=1){
+	d=x*x+y*y;
+	if(d<=1){
 	c++;
 	}
 	}
